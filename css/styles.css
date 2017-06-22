@@ -991,23 +991,15 @@ footer small {
 
 /* clearfix */
 
-.clearfix {
-	clear: both;
-}
 
 
 /* clearfix */
 
-@-moz-document url(http://www.w3.org/),
+@-moz-document url(file:///Volumes/UserData/gans115/Desktop/Cross%20Browser%20Compatibility/01.%20General%20Assignments/02.%20Browser%20Specific%20Webpage/browser-specific-webpage/index.html),
     {
-      /* CSS rules here apply to:
-         + The page "http://www.w3.org/".
-         + Any page whose URL begins with "http://www.w3.org/Style/"
-         + Any page whose URL's host is "mozilla.org" or ends with
-           ".mozilla.org"
-       */
-
-      /* make the above-mentioned pages really ugly */
-      body { color: purple; background: yellow; }
+      body, h1, h2, h3, h4, p { color: black; background: white; }
 }
 
+.clearfix {
+	clear: both;
+}
